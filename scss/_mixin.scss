@@ -1,0 +1,18 @@
+@mixin Flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin Link {
+    color: var(--color-link);
+    font-family: "DM Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    &:hover {
+        opacity: 0.7;
+    }
+}
